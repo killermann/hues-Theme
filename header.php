@@ -263,13 +263,13 @@
 						</a>
 					</li>
 					<li>
-						<a id="gjNav" href="<?php echo home_url(); ?>/global-justice" alt="Global Justice">
+						<a id="gjNav" href="<?php echo home_url(); ?>/about/global-justice" alt="Global Justice">
 							<i class="fa fa-globe"></i><i class="fa fa-balance-scale"></i>
 							<span>global justice</span>
 						</a>
 					</li>
 					<li>
-						<a id="giftNav" href="<?php echo home_url(); ?>/gift" alt="Gifts by hues">
+						<a id="giftNav" href="<?php echo home_url(); ?>/about/gift" alt="Gifts by hues">
 							<i class="fa fa-gift"></i>
 							<span>gift</span>
 						</a>
