@@ -7,11 +7,11 @@ It's turned off by default, but you can call it
 via the functions file.
 
 Developed by: Eddie Machado
-URL: http://themble.com/bones/
+URL: https://themble.com/bones/
 
 Special Thanks for code & inspiration to:
-@jackmcconnell - http://www.voltronik.co.uk/
-Digging into WP - http://digwp.com/2010/10/customize-wordpress-dashboard/
+@jackmcconnell - https://www.voltronik.co.uk/
+Digging into WP - https://digwp.com/2010/10/customize-wordpress-dashboard/
 
 */
 
@@ -48,14 +48,14 @@ site. Here is an example Dashboard Widget that displays recent
 entries from an RSS Feed.
 
 For more information on creating Dashboard Widgets, view:
-http://digwp.com/2010/10/customize-wordpress-dashboard/
+https://digwp.com/2010/10/customize-wordpress-dashboard/
 */
 
 // RSS Dashboard Widget
 function bones_rss_dashboard_widget() {
 	if(function_exists('fetch_feed')) {
 		include_once(ABSPATH . WPINC . '/feed.php');               // include the required file
-		$feed = fetch_feed('http://itspronouncedmetrosexual.com/feed/rss/');        // specify the source feed
+		$feed = fetch_feed('https://itspronouncedmetrosexual.com/feed/rss/');        // specify the source feed
 		$limit = $feed->get_item_quantity(7);                      // specify number of items
 		$items = $feed->get_items(0, $limit);                      // create an array of items
 	}
@@ -94,7 +94,7 @@ add_action('wp_dashboard_setup', 'bones_custom_dashboard_widgets');
 // calling your own login css so you can style it
 
 //Updated to proper 'enqueue' method
-//http://codex.wordpress.org/Plugin_API/Action_Reference/login_enqueue_scripts
+//https://codex.wordpress.org/Plugin_API/Action_Reference/login_enqueue_scripts
 function bones_login_css() {
 	wp_enqueue_style( 'bones_login_css', get_template_directory_uri() . '/library/css/login.css', false );
 }
@@ -122,7 +122,7 @@ you like.
 
 // Custom Backend Footer
 function bones_custom_admin_footer() {
-	_e('<span id="footer-thankyou">Developed by <a href="http://samuelkillermann.com" target="_blank">samuel Killermann</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme');
+	_e('<span id="footer-thankyou">Developed by <a href="https://samuelkillermann.com" target="_blank">samuel Killermann</a></span>. Built using <a href="https://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme');
 }
 
 // adding it to the admin area

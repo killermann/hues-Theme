@@ -3,7 +3,7 @@
 // let's create the function for the custom type
 function updates_post_type() { 
 	// creating (registering) the custom type 
-	register_post_type( 'updates', /* (http://codex.wordpress.org/Function_Reference/register_post_type) */
+	register_post_type( 'updates', /* (https://codex.wordpress.org/Function_Reference/register_post_type) */
 	 	// let's now add all the options for this post type
 		array('labels' => array(
 			'name' => __('Updates', 'bonestheme'), /* This is the Title of the Group */
@@ -69,7 +69,7 @@ function updates_post_type() {
 
 	/*
 	for more information on taxonomies, go here:
-	http://codex.wordpress.org/Function_Reference/register_taxonomy
+	https://codex.wordpress.org/Function_Reference/register_taxonomy
 	*/
 	    
     /*
@@ -81,7 +81,7 @@ function updates_post_type() {
 // let's create the function for the custom type
 function press_clippings_post_type() { 
 	// creating (registering) the custom type 
-	register_post_type( 'press_clippings', /* (http://codex.wordpress.org/Function_Reference/register_post_type) */
+	register_post_type( 'press_clippings', /* (https://codex.wordpress.org/Function_Reference/register_post_type) */
 	 	// let's now add all the options for this post type
 		array('labels' => array(
 			'name' => __('Press Clippings', 'bonestheme'), /* This is the Title of the Group */

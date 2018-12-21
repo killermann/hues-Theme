@@ -13,14 +13,14 @@ CLEARFIXIN'
 TOOLS
 *********************/
 
-// BORDER-BOX ALL THE THINGS! (http://paulirish.com/2012/box-sizing-border-box-ftw/)
+// BORDER-BOX ALL THE THINGS! (https://paulirish.com/2012/box-sizing-border-box-ftw/)
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
 }
 
-// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+// https://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
 .image-replacement {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -30,7 +30,7 @@ TOOLS
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
+https://0to255.com/
 *********************/
 
 $alert-yellow:      #ebe16f;
@@ -91,7 +91,7 @@ $text-color:		#333;
 /*
 Here's a great tutorial on how to
 use color variables properly:
-http://sachagreif.com/sass-color-variables/
+https://sachagreif.com/sass-color-variables/
 */
 
 $mobilepad:30px;
@@ -101,7 +101,7 @@ $desktoppad:50px;
 TYPOGRAPHY
 *********************/
 
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 
 
@@ -115,7 +115,7 @@ $alt-font: 			"Dancing Script", $serif;
 
 /*
 use the best ampersand
-http://simplebits.com/notebook/2008/08/14/ampersands-2/
+https://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 span.amp, i.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;

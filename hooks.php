@@ -88,13 +88,13 @@ add_action('bones_hook_before_sidebar','getStoreWidget');
 function getCreedWidget() {?>
 	<div id="creedWidget" class="clearfix">
 		<h4 class="widgettitle">The hues creed poster</h4>
-		<a href="http://hues.xyz/hues-creed-poster" alt="hues Creed Poster">
+		<a href="https://hues.xyz/hues-creed-poster" alt="hues Creed Poster">
 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/hues-creed-poster-mockup-model.jpg" alt="hues Creed Poster">
 		</a>
-		<a class="button" href="http://hues.xyz/hues-creed-poster" alt="Get Poster">
+		<a class="button" href="https://hues.xyz/hues-creed-poster" alt="Get Poster">
 			Get Poster <i class="fa fa-file-photo-o"></i>
 		</a>
-		<a class="button accent-button" href="http://hues.xyz/creed" alt="Read">
+		<a class="button accent-button" href="https://hues.xyz/creed" alt="Read">
 			Read <i class="fa fa-book"></i>
 		</a>
 	</div><!--/creedWidget-->

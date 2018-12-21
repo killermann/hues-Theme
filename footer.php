@@ -66,11 +66,11 @@
 						</nav>
 
 						<h3 style="margin-top:40px">Mailing Address</h3>
-						<div class="footerPara" itemscope itemtype="http://schema.org/Organization">
+						<div class="footerPara" itemscope itemtype="https://schema.org/Organization">
 							<p itemprop="legalName">
 								hues Org, LLC
 							</p>
-							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 								<p itemprop="streetAddress">P.O. Box 684412</p>
 								<p>
 									<span itemprop="addressLocality">Austin</span>, 

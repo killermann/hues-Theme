@@ -221,7 +221,7 @@ Template Name: Homepage
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix entry-content'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix entry-content'); ?> role="article" itemscope itemtype="https://schema.org/BlogPosting">
 
 							<section class="clearfix" itemprop="articleBody">
 								<?php the_content(); ?>
@@ -238,13 +238,13 @@ Template Name: Homepage
 							<h4 class="widgettitle">Connect</h4>
 							<ul>
 								<li>
-									<a id="ml" href="http://eepurl.com/btKt31" alt="hues Mailing List">
+									<a id="ml" href="https://eepurl.com/btKt31" alt="hues Mailing List">
 										Mailing List
 										<i class="fa fa-envelope-square"></i>
 									</a>
 								</li>
 								<li>
-									<a id="frf" href="http://eepurl.com/bLxcA9" alt="Archived Mailing List Emails">
+									<a id="frf" href="https://eepurl.com/bLxcA9" alt="Archived Mailing List Emails">
 										Free Resource Friday
 										<i class="fa fa-archive"></i>
 									</a>
@@ -257,7 +257,7 @@ Template Name: Homepage
 								</li>
 
 								<li>
-									<a id="tw" href="http://twitter.com/huesorg" alt="hues Twitter">
+									<a id="tw" href="https://twitter.com/huesorg" alt="hues Twitter">
 										Twitter
 										<i class="fa fa-twitter"></i>
 									</a>

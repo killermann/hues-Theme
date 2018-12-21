@@ -15,7 +15,7 @@ Template Name: Collective
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="https://schema.org/BlogPosting">
 
 
 								<section class="entry-content clearfix" itemprop="articleBody">
@@ -72,7 +72,7 @@ Template Name: Collective
 						<h1>This is our creed</h1>
 						<h2>This is what we believe.</h2>
 						<div class="clearfix feature">
-							<a href="http://hues.xyz/creed" alt="hues Creed"><img src="http://hues.xyz/wp-content/uploads/2016/01/hues-Creed-1400.png" alt="hues Creed"/></a>
+							<a href="https://hues.xyz/creed" alt="hues Creed"><img src="https://hues.xyz/wp-content/uploads/2016/01/hues-Creed-1400.png" alt="hues Creed"/></a>
 						</div>
 						<div class="collectiveShare clearfix">
 									<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//hues.xyz/creed
@@ -87,7 +87,7 @@ Template Name: Collective
 										Pin It <i class="fa fa-pinterest-square"></i>
 									</a>
 
-									<a target="_blank" target="_blank" href="http://hues.xyz/hues-creed-poster/" alt="Get Poster" id="po">
+									<a target="_blank" target="_blank" href="https://hues.xyz/hues-creed-poster/" alt="Get Poster" id="po">
 										Get Creed Poster <i class="fa fa-file-image-o"></i>
 									</a>
 						</div><!--/collectiveshare-->

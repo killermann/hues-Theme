@@ -53,7 +53,7 @@ b
 													
 						  	<script id="people-template" type="text/x-handlebars-template">
 
-					   		<article id="{{cells.ID}}" class="loopCard clearfix projectVert {{cells.Role}}" role="article" data-category="{{cells.Role}}" itemtype="http://schema.org/Person">
+					   		<article id="{{cells.ID}}" class="loopCard clearfix projectVert {{cells.Role}}" role="article" data-category="{{cells.Role}}" itemtype="https://schema.org/Person">
 								<div class="loopImage featuredImage">
 
 									{{#if cells.URL}}
@@ -95,14 +95,14 @@ b
 										{{/if}}
 										{{#if cells.Instagram}}
 											<li>
-												<a class="tip" data-tip="Instagram" href="http://instagram.com/{{cells.Instagram}}" alt="{{cells.Name}}'s Instagram">
+												<a class="tip" data-tip="Instagram" href="https://instagram.com/{{cells.Instagram}}" alt="{{cells.Name}}'s Instagram">
 													<i class="fa fa-instagram"></i>
 												</a>
 											</li>
 										{{/if}}
 										{{#if cells.Facebook}}
 											<li>
-												<a class="tip" data-tip="Facebook" href="http://facebook.com/{{cells.Facebook}}" alt="{{cells.Name}}'s Facebook">
+												<a class="tip" data-tip="Facebook" href="https://facebook.com/{{cells.Facebook}}" alt="{{cells.Name}}'s Facebook">
 													<i class="fa fa-facebook-square"></i>
 												</a>
 											</li>
@@ -110,7 +110,7 @@ b
 
 										{{#if cells.Twitter}}
 											<li>
-												<a class="tip" data-tip="Twitter" href="http://twitter.com/{{cells.Twitter}}" alt="{{cells.Name}}'s Twitter">
+												<a class="tip" data-tip="Twitter" href="https://twitter.com/{{cells.Twitter}}" alt="{{cells.Name}}'s Twitter">
 													<i class="fa fa-twitter"></i>
 												</a>
 											</li>
@@ -125,7 +125,7 @@ b
 										{{/if}}
 										{{#if cells.LinkedIn}}
 											<li>
-												<a class="tip" data-tip="LinkedIn" href="http://linkedin.com/in/{{cells.LinkedIn}}" alt="{{cells.Name}}'s LinkedIn">
+												<a class="tip" data-tip="LinkedIn" href="https://linkedin.com/in/{{cells.LinkedIn}}" alt="{{cells.Name}}'s LinkedIn">
 													<i class="fa fa-linkedin"></i>
 												</a>
 											</li>

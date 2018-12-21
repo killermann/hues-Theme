@@ -9,7 +9,7 @@ Bones, the starter theme by Eddie Machado / Themble, is the nuts and bolts of th
 Get to know how Bones runs using their documentation, and you'll have a good sense of how
 to tweak this theme to your needs.
 
-http://themble.com/bones/
+https://themble.com/bones/
 
 ## No support, but feel free to use
 

@@ -1,11 +1,11 @@
-/*! normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
+/*! normalize.css 2012-07-07T09:50 UTC - https://github.com/necolas/normalize.css */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
 /*
  * Corrects `block` display not defined in IE6/7/8/9 & FF3.
  */
-@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 article,
 aside,
@@ -488,7 +488,7 @@ TOOLS
 /*********************
 COLORS
 Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
+https://0to255.com/
 *********************/
 .blue, .blue a {
   color: #467cbf !important; }
@@ -526,7 +526,7 @@ http://0to255.com/
 /*
 Here's a great tutorial on how to
 use color variables properly:
-http://sachagreif.com/sass-color-variables/
+https://sachagreif.com/sass-color-variables/
 */
 /*********************
 TYPOGRAPHY
@@ -536,7 +536,7 @@ TYPOGRAPHY
 
 /*
 use the best ampersand
-http://simplebits.com/notebook/2008/08/14/ampersands-2/
+https://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 span.amp, i.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
@@ -1416,7 +1416,7 @@ and more scalable.
     /* end ul */ }
     #primaryNavContainer nav#primaryNav #navBG {
       padding: 5px;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcdc00+0,ed7623+15,e81d76+31,803c96+47,467cbf+64,42b4e3+85,008345+100 */
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcdc00+0,ed7623+15,e81d76+31,803c96+47,467cbf+64,42b4e3+85,008345+100 */
       background: url(../images/bg/bg-overlay.png) repeat; }
     #primaryNavContainer nav#primaryNav .closeNav {
       padding: 5px;
@@ -2324,7 +2324,7 @@ PRELOADER STYLES
   z-index: 99999;
   /* makes sure it stays on top */ }
 
-/* Based on Fabrizio's http://codepen.io/fbrz/pen/oreJc */
+/* Based on Fabrizio's https://codepen.io/fbrz/pen/oreJc */
 #loader {
   position: absolute;
   left: 50%;
@@ -3856,7 +3856,7 @@ FOOTER STYLES
 Tipr 2.0.1
 Copyright (c) 2015 Tipue
 Tipr is released under the MIT License
-http://www.tipue.com/tipr
+https://www.tipue.com/tipr
 */
 .tipr_content {
   font: 13px/1.7 Karla, "Karla", Karla, "Karla", "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;
@@ -4102,7 +4102,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   color: #666;
   /*
 	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
+	https://css-tricks.com/watch-your-font-weight/
 	*/
   /* removing text decoration from all headline links */ }
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
@@ -4389,9 +4389,9 @@ called at the top the style.scss stylesheet.
 There are a ton of grid solutions out there. You should definitely
 experiment with your own. Here are some recommendations:
 
-http://gridsetapp.com - Love this site. Responsive Grids made easy.
-http://susy.oddbird.net/ - Grids using Compass. Very elegant.
-http://gridpak.com/ - Create your own responsive grid.
+https://gridsetapp.com - Love this site. Responsive Grids made easy.
+https://susy.oddbird.net/ - Grids using Compass. Very elegant.
+https://gridpak.com/ - Create your own responsive grid.
 
 The grid below is a combination of the 1140 grid and Twitter Boostrap.
 I liked 1140 but Boostrap's grid was way more detailed so I merged them

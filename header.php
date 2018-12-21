@@ -70,99 +70,8 @@
         	}
         ?>
 
-        <link rel=”publisher” href="http://plus.google.com/112912629645760629642"/>
+        <link rel=”publisher” href="https://plus.google.com/112912629645760629642"/>
 
-        <!-- Facebook Meta-->
-      	<meta property="og:site_name" content="hues 🎨 Art, Tools, and Resources for Global Justice"/>
-        <meta property="og:title" content="<?php if (is_front_page()) {?>hues 🎨 Art, Tools, and Resources for Global Justice<?php } elseif ( is_home() ) {?>ALL hues 🎨 Art, Tools, and Resources for Global Justice<?php } else {wp_title(''); ?><?php } ?>" />
-        <meta property="og:type" content="article" />
-        <meta property="fb:admins" content="killermann" />
-        <meta property="fb:app_id" content="470925333076929"/>
-       <?php if (is_front_page()){
-        		echo '<meta property="og:url" content="http://hues.xyz" />';
-        	}
-        	elseif (is_home()){
-        		echo '<meta property="og:url" content="http://hues.xyz/all/"/>';
-        	}
-        	else {
-        		echo '<meta property="og:url" content="';
-        		echo get_permalink();
-        		echo '" />';
-        	}
-        ?>
-
-        <?php if (is_front_page()){
-        		echo '<meta property="og:description" content="Creating to live in a world where everyone is healthy, understood, educated, and safe." />';
-        	}
-        	elseif (is_home()){
-        		echo '<meta property="og:description" content="The many hues, creating to live in a word where everyone is healthy, understood, educated, and safe." />';
-        	}
-        	else {
-        		echo '<meta property="og:description" content="';
-        		echo esc_html($myExcerpt);
-        		echo '" />';
-        	}
-        ?>
-        <?php if (is_front_page()){
-        		echo '<meta property="og:image" content="';
-        		echo get_template_directory_uri();;
-        		echo '/library/images/hues-social-card.png';
-        		echo '" />';
-        	}
-
-        	elseif (is_home()){
-        		echo '<meta property="og:image" content="';
-        		echo get_template_directory_uri();;
-        		echo '/library/images/hues-social-card.png';
-        		echo '" />';
-        	}
-
-        	else {
-        		echo '<meta property="og:image" content="';
-        		echo $myThumbnail[0];
-        		echo '" />';
-        	}
-        ?>
-        <!--/Facebook Meta-->
-
-        <!-- Twitter Card Meta -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@huesorg">
-        <meta name="twitter:title" content="<?php if (is_front_page()) {?>hues ✗ Art, Tools, and Resources for Global Justice<?php } elseif ( is_home() ) {?>ALL hues ✗ Projects: Art, Tools, and Resources for Global Justice<?php } else {wp_title(''); ?><?php } ?>">
-        <?php if (is_front_page()){
-        		echo '<meta name="twitter:description" content="Creating to live in a world where everyone is healthy, understood, educated, and safe." />';
-        	}
-        	elseif (is_home()){
-        		echo '<meta property="twitter:description" content="The many hues, creating to live in a word where everyone is healthy, understood, educated, and safe." />';
-        	}
-        	else {
-        		echo '<meta name="og:description" content="';
-        		echo esc_html($myExcerpt);
-        		echo '" />';
-        	}
-        ?>
-        <meta name="twitter:creator" content="@huesorg">
-        <?php if (is_front_page()){
-        		echo '<meta name="twitter:image:src" content="';
-        		echo get_template_directory_uri();
-        		echo '/library/images/hues-social-card.png';
-        		echo '" />';
-        	}
-
-        	elseif (is_home()){
-        		echo '<meta property="twitter:image:src" content="';
-        		echo get_template_directory_uri();;
-        		echo '/library/images/hues-social-card.png';
-        		echo '" />';
-        	}
-
-        	else {
-        		echo '<meta name="twitter:image:src" content="';
-        		echo $myThumbnail[0];
-        		echo '" />';
-        	}
-        ?>
-        <!--/Twitter Card-->
 
 	</head>
 
@@ -305,7 +214,7 @@
 						</div>
 
 						<div id="headerShop" class="clearfix first">
-							<a href="http://hues.xyz/shop" alt="Shop to support hues">
+							<a href="https://hues.xyz/shop" alt="Shop to support hues">
 								<i class="fa fa-shopping-bag"></i> Shop &nbsp; <i class="fa fa-external-link"></i>
 							</a>
 						</div>

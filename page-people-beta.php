@@ -118,14 +118,14 @@ $('#hr').sheetrock({
 										{{/if}}
 										{{#if cells.Instagram}}
 											<li>
-												<a href="http://instagram.com/{{cells.Instagram}}" alt="{{cells.Name}}'s Instagram">
+												<a href="https://instagram.com/{{cells.Instagram}}" alt="{{cells.Name}}'s Instagram">
 													<i class="fa fa-instagram"></i>
 												</a>
 											</li>
 										{{/if}}
 										{{#if cells.Facebook}}
 											<li>
-												<a href="http://facebook.com/{{cells.Facebook}}" alt="{{cells.Name}}'s Facebook">
+												<a href="https://facebook.com/{{cells.Facebook}}" alt="{{cells.Name}}'s Facebook">
 													<i class="fa fa-facebook-square"></i>
 												</a>
 											</li>
@@ -133,7 +133,7 @@ $('#hr').sheetrock({
 
 										{{#if cells.Twitter}}
 											<li>
-												<a href="http://twitter.com/{{cells.Twitter}}" alt="{{cells.Name}}'s Twitter">
+												<a href="https://twitter.com/{{cells.Twitter}}" alt="{{cells.Name}}'s Twitter">
 													<i class="fa fa-twitter"></i>
 												</a>
 											</li>
@@ -141,14 +141,14 @@ $('#hr').sheetrock({
 
 										{{#if cells.YouTube}}
 											<li>
-												<a href="http://youtube.com/{{cells.YouTube}}" alt="{{cells.Name}}'s YouTube">
+												<a href="https://youtube.com/{{cells.YouTube}}" alt="{{cells.Name}}'s YouTube">
 													<i class="fa fa-youtube"></i>
 												</a>
 											</li>
 										{{/if}}
 										{{#if cells.LinkedIn}}
 											<li>
-												<a href="http://linkedin.com/in/{{cells.LinkedIn}}" alt="{{cells.Name}}'s LinkedIn">
+												<a href="https://linkedin.com/in/{{cells.LinkedIn}}" alt="{{cells.Name}}'s LinkedIn">
 													<i class="fa fa-linkedin"></i>
 												</a>
 											</li>

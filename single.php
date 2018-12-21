@@ -14,7 +14,7 @@
 							Buy <i class="fa fa-shopping-bag"></i>
 						</a> 
 
-						<a class="button accent-button" href="http://hues.xyz/merch">
+						<a class="button accent-button" href="https://hues.xyz/merch">
 							Browse Shop <i class="fa fa-th-list"></i>
 						</a>
 
@@ -33,7 +33,7 @@
 				<div class="merchSingleContent clearfix" role="main">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="https://schema.org/BlogPosting">
 							
 							<section class="entry-content clearfix" itemprop="articleBody">
 								<?php bones_hook_post_intro();?>
@@ -72,7 +72,7 @@
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="https://schema.org/BlogPosting">
 								
 								<section class="entry-content clearfix" itemprop="articleBody">
 									<?php bones_hook_post_intro();?>
