@@ -198,10 +198,10 @@
 						<i class="amp">&amp;</i> <a href="<?php echo home_url(); ?>/resources" alt="hues Resources" class="light-blue">resources</a> that bolster efforts
 					</span>
 					<span>for
-						<a href="<?php echo home_url(); ?>/global-justice" alt="hues Global Justice" class="teal">global justice</a> &mdash;
+						<a href="<?php echo home_url(); ?>/about/global-justice" alt="hues Global Justice" class="teal">global justice</a> &mdash;
 					</span>
 					<span> embodied in the
-					<a href="<?php echo home_url(); ?>/gift" alt="hues Gift" class="purple">gift</a>.
+					<a href="<?php echo home_url(); ?>/about/gift" alt="hues Gift" class="purple">gift</a>.
 					</span>
 				</p>
 
