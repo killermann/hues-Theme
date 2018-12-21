@@ -53,7 +53,7 @@ AD STYLES
 .fishtank {
 
 	padding:1em 10%;
-	
+
 	span.fishtankText {
 		font-family:$alt-font;
 		font-size:1.8em;
@@ -162,7 +162,7 @@ HOME PAGE
 		h2 {font-size:3.2em;}
 
 		img {
-		
+
 		}
 
 	}
@@ -211,7 +211,7 @@ HOME PAGE
 			    line-height:60px;
 			    height:60px;
 			    color:rgba(255,255,255,.6);
-			    text-decoration: none; 
+			    text-decoration: none;
 			    text-transform:uppercase;
 			    letter-spacing:1px;
 			    font-style:italic;
@@ -246,7 +246,7 @@ HOME PAGE
 		    width:100%;
 		    padding:0;
 		    text-align:left;
-		    
+
 		    a {
 			    padding:0 10px 0;
 			    display:block;
@@ -257,7 +257,7 @@ HOME PAGE
 			    line-height:60px;
 			    height:60px;
 			    color:rgba(255,255,255,.5);
-			    text-decoration: none; 
+			    text-decoration: none;
 			    text-transform:uppercase;
 			    letter-spacing:1px;
 			    font-style:italic;
@@ -297,11 +297,11 @@ HOME PAGE
 				}
 
 				a#toolsLink {
-				
+
 				}
 
 				a#resourcesLink {
-					
+
 				}
 			}
 		}
@@ -318,7 +318,7 @@ HOME PAGE
 	}
 
 	#art{
-	 	display: block;   
+	 	display: block;
 	 	background:$light-orange;
 	 	padding:10px;
 
@@ -391,7 +391,7 @@ COLLECTIVE PAGE
 			margin-top:30px;
 			padding-top:20px;
 			border-top:4px solid rgba(255,255,255,.8);
-		}		
+		}
 
 		#mc_embed_signup {
 			text-align:left;
@@ -498,8 +498,8 @@ NAVIGATION STYLES
 	width:100%;
 	height:60px;
 
-	-webkit-filter: grayscale(1);
-  	filter: grayscale(1);
+	-webkit-filter: grayscale(.1);
+  	filter: grayscale(.2);
 
   	@include transition(all 0.5s ease-in-out);
 
@@ -673,12 +673,12 @@ NAVIGATION STYLES
 						color:rgba(0,0,0,.5);
 						font-size:200%;
 					}
-			
+
 
 				}
 
 
-				
+
 			} /* end .menu li */
 
 		} /* end ul */
@@ -765,7 +765,7 @@ POSTS & CONTENT STYLES
 *********************/
 
 .single.section-merch {
-	
+
 	.article-header {
 		float:left;
 		width:50%;
@@ -801,7 +801,7 @@ POSTS & CONTENT STYLES
 		line-height:31px;
 		font-weight:300;
 		font-style:italic;
-		text-transform:none;	
+		text-transform:none;
 		overflow:hidden;
 		text-overflow: ellipsis;
 
@@ -857,12 +857,12 @@ POSTS & CONTENT STYLES
 
 #getTheBookHome {
 	display:block;
-	
+
 	.option {
 		width:33.33333333%;
 		float:left;
 	}
-	
+
 }
 
 .single-updates, .single-press_clippings{
@@ -1017,7 +1017,7 @@ TESTIMONIAL STYLES
 
 #mailingList {
 	text-align:center;
-	
+
 	label {
 		text-align:right;
 		display:inline-block;
@@ -1033,7 +1033,7 @@ TESTIMONIAL STYLES
 		input {
 			padding:24px;
 		}
-		
+
 		button{
 			background:rgba(255,255,255,1);
 			margin:1%;

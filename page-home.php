@@ -14,18 +14,19 @@ Template Name: Homepage
 
 				<div id="huesIS" class="clearfix">
 					<h1>hues is <span id="rotate">
-						<span class="light-orange">art that inspires action</span> 
-						<span class="pink">tools that facilitate change</span> 
-						<span class="light-blue">resources that bolster efforts</span> 
-						<span class="teal">uncopyrighted and open-source</span>
-					</span> for global justice.</h1>
+						<span class="light-orange">art that inspires action</span>
+						<span class="pink">tools that facilitate change</span>
+						<span class="light-blue">resources that bolster efforts</span>
+						<!-- <span class="teal">uncopyrighted and open-source</span> -->
+					</span> for global justice</h1>
+					<h2>created by Sam Killermann + Friends</h2>
 				</div>
 
 				<div id="featuredHues" class="clearfix">
 					<div id="featuredMedium" class="clearfix">
-						<?php 
+						<?php
 							query_posts(array(
-								'post_type' => 'post', 
+								'post_type' => 'post',
 								'orderby' => 'rand',
 								'cat' => 36,
 								    'tax_query' => array( //getting all posts in a custom taxonomy
@@ -34,7 +35,7 @@ Template Name: Homepage
 								        'field' => 'slug', //can be by slug, name, or id
 								        'terms' => 'tools' //the slug of the custom tax
 								        ),
-								    ), 
+								    ),
 						    	'showposts' => 2,
 
 						    ));?>
@@ -43,13 +44,13 @@ Template Name: Homepage
 
 							loopProjectSquare();
 
-					   		endwhile; else: endif; wp_reset_query(); 
+					   		endwhile; else: endif; wp_reset_query();
 					   	?>
 					</div>
 					<div id="featuredLarge" class="clearfix">
-						<?php 
+						<?php
 							query_posts(array(
-								'post_type' => 'post', 
+								'post_type' => 'post',
 								'orderby' => 'rand',
 								'cat' => 36,
 								    'tax_query' => array( //getting all posts in a custom taxonomy
@@ -58,7 +59,7 @@ Template Name: Homepage
 								        'field' => 'slug', //can be by slug, name, or id
 								        'terms' => 'merch' //the slug of the custom tax
 								        ),
-								    ), 
+								    ),
 						    	'showposts' => 1,
 						    ));?>
 
@@ -66,13 +67,13 @@ Template Name: Homepage
 
 							loopProjectSquare();
 
-					   		endwhile; else: endif; wp_reset_query(); 
+					   		endwhile; else: endif; wp_reset_query();
 					   	?>
 					</div>
 					<div id="featuredSmall" class="clearfix">
-						<?php 
+						<?php
 							query_posts(array(
-								'post_type' => 'post', 
+								'post_type' => 'post',
 								'orderby' => 'rand',
 								'cat' => 36,
 								    'tax_query' => array( //getting all posts in a custom taxonomy
@@ -81,7 +82,7 @@ Template Name: Homepage
 								        'field' => 'slug', //can be by slug, name, or id
 								        'terms' => 'resources' //the slug of the custom tax
 								        ),
-								    ), 
+								    ),
 						    	'showposts' => 3,
 						    ));?>
 
@@ -89,7 +90,7 @@ Template Name: Homepage
 
 							loopProjectSquare();
 
-					   		endwhile; else: endif; wp_reset_query(); 
+					   		endwhile; else: endif; wp_reset_query();
 					   	?>
 					</div>
 
@@ -126,10 +127,10 @@ Template Name: Homepage
 						</div><!--/menu-->
 					    <div id="tabContentWrap" class="tab floatcol clearfix first">
 					        <div id="art" class="tab-content">
-								<?php 
+								<?php
 
 								query_posts(array(
-								    'showposts' => 4, 
+								    'showposts' => 4,
 								    'post_type' => 'post',
 								    'tax_query' => array( //getting all posts in a custom taxonomy
 									        array(
@@ -137,25 +138,25 @@ Template Name: Homepage
 									        'field' => 'slug', //can be by slug, name, or id
 									        'terms' => 'art' //the slug of the custom tax
 									        ),
-									    ), 
+									    ),
 								    )
 								);
 
-								if ( have_posts() ) : while ( have_posts() ) : the_post();								
-							
+								if ( have_posts() ) : while ( have_posts() ) : the_post();
+
 							    	loopProject();
-							
+
 							    endwhile; else: endif; wp_reset_query(); ?>
-									
-								<a href="<?php echo home_url(); ?>/art" class="button clearfix">View All Art <i class="fa fa-paint-brush"></i></a>				
+
+								<a href="<?php echo home_url(); ?>/art" class="button clearfix">View All Art <i class="fa fa-paint-brush"></i></a>
 
 					        </div><!--/art-->
 
 					        <div id="tools" class="tab-content">
-								<?php 
+								<?php
 
 								query_posts(array(
-								    'showposts' => 4, 
+								    'showposts' => 4,
 								    'post_type' => 'post',
 								    'tax_query' => array( //getting all posts in a custom taxonomy
 									        array(
@@ -163,14 +164,14 @@ Template Name: Homepage
 									        'field' => 'slug', //can be by slug, name, or id
 									        'terms' => 'tools' //the slug of the custom tax
 									        ),
-									    ), 
+									    ),
 								    )
 								);
 
-								if ( have_posts() ) : while ( have_posts() ) : the_post();								
-							
+								if ( have_posts() ) : while ( have_posts() ) : the_post();
+
 							    	loopProject();
-							
+
 							    endwhile; else: endif; wp_reset_query(); ?>
 
 							    <a href="<?php echo home_url(); ?>/tools" class="button clearfix">View All Tools <i class="fa fa-wrench"></i></a>
@@ -178,10 +179,10 @@ Template Name: Homepage
 					        </div><!--/tools-->
 
 					        <div id="resources" class="tab-content">
-								<?php 
+								<?php
 
 								query_posts(array(
-								    'showposts' => 4, 
+								    'showposts' => 4,
 								    'post_type' => 'post',
 								    'tax_query' => array( //getting all posts in a custom taxonomy
 									        array(
@@ -189,14 +190,14 @@ Template Name: Homepage
 									        'field' => 'slug', //can be by slug, name, or id
 									        'terms' => 'resources' //the slug of the custom tax
 									        ),
-									    ), 
+									    ),
 								    )
 								);
 
-								if ( have_posts() ) : while ( have_posts() ) : the_post();								
-							
+								if ( have_posts() ) : while ( have_posts() ) : the_post();
+
 							    	loopProject();
-							
+
 							    endwhile; else: endif; wp_reset_query(); ?>
 
 							    <a href="<?php echo home_url(); ?>/resources" class="button clearfix">View All Resources <i class="fa fa-map"></i></a>
@@ -217,7 +218,7 @@ Template Name: Homepage
 				<div id="homeWelcome" class="wrap clearfix">
 					<h2 class="page-title"><?php echo the_title();?></h2>
 					<div class="clearfix ninecol first" role="main">
-						
+
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix entry-content'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -254,14 +255,14 @@ Template Name: Homepage
 										<i class="fa fa-facebook-square"></i>
 									</a>
 								</li>
-								
+
 								<li>
 									<a id="tw" href="http://twitter.com/huesorg" alt="hues Twitter">
 										Twitter
 										<i class="fa fa-twitter"></i>
 									</a>
 								</li>
-							
+
 								<li>
 									<a id="yt" href="https://www.youtube.com/user/huesorg" alt="hues YouTube">
 										YouTube

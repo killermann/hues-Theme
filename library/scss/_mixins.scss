@@ -74,7 +74,7 @@ $grey: 				#9c9c9c;
 $link-color:        $teal;
 $accent-color:		$light-orange;
 $link-hover:        darken($link-color, 12%);
-$text-color:		rgba(0,0,0,.65);
+$text-color:		#333;
 
 .blue, .blue a {color:$blue !important;}
 .light-blue, .light-blue a {color:$light-blue !important;}
@@ -279,7 +279,7 @@ BUTTONS
 .accent-button, .accent-button:visited {
 
 	background:$accent-color;
-	
+
 	&:hover, &:focus {
 		background:lighten($accent-color, 5%);
 		color:#fff;

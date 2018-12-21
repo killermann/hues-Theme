@@ -11,7 +11,7 @@
 
 					<div id="main" class="clearfix isotope" role="main">
 
-						<?php 
+						<?php
 
 						$args['tax_query'] = array(
 						    array(

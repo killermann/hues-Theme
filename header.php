@@ -6,6 +6,16 @@
 <!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65551516-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-65551516-1');
+		</script>
+
 		<meta charset="utf-8">
 
 		<!-- Google Chrome Frame for IE -->
@@ -36,12 +46,12 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
-		 <?php 
+		 <?php
 		  global $post;
 		  $myExcerpt = get_the_excerpt();
 		  $tags = array("<p>", "</p>");
 		  $myExcerpt = str_replace($tags, "", $myExcerpt);
-		  
+
 		  $myThumbnail = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
 		?>
 
@@ -61,7 +71,7 @@
         ?>
 
         <link rel=”publisher” href="http://plus.google.com/112912629645760629642"/>
-        
+
         <!-- Facebook Meta-->
       	<meta property="og:site_name" content="hues 🎨 Art, Tools, and Resources for Global Justice"/>
         <meta property="og:title" content="<?php if (is_front_page()) {?>hues 🎨 Art, Tools, and Resources for Global Justice<?php } elseif ( is_home() ) {?>ALL hues 🎨 Art, Tools, and Resources for Global Justice<?php } else {wp_title(''); ?><?php } ?>" />
@@ -114,7 +124,7 @@
         	}
         ?>
         <!--/Facebook Meta-->
-        
+
         <!-- Twitter Card Meta -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@huesorg">
@@ -154,19 +164,6 @@
         ?>
         <!--/Twitter Card-->
 
-		<!-- drop Google Analytics Here -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-65551516-1', 'auto');
-		  ga('send', 'pageview');
-
-		  </script>
-		<!-- end analytics -->
-
 	</head>
 
 	<body <?php body_class();?> />
@@ -182,34 +179,6 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 		<!--/facebookSDK-->
 
-		<div id="preloader">
-			<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				 width="100px" height="100px" viewBox="0 0 120 120" xml:space="preserve">
-			<g>
-				<defs>
-					<path id="c_path" d="M87.417,78.237c-0.209-0.245-0.432-0.471-0.666-0.685c-0.47-0.428-0.984-0.787-1.528-1.075
-						c-2.65-1.406-6.001-1.141-8.42,0.926h-0.002l-0.002-0.001c-3.945,3.373-9.066,5.413-14.666,5.413
-						c-12.474,0-22.586-10.111-22.586-22.585s10.112-22.585,22.586-22.585c5.586,0,10.697,2.03,14.64,5.391l0.004-0.003
-						c0.009,0.009,0.018,0.017,0.026,0.024c2.419,2.067,5.77,2.332,8.42,0.926c0.544-0.289,1.057-0.647,1.528-1.075
-						c0.232-0.212,0.457-0.439,0.666-0.685c2.696-3.155,2.329-7.895-0.815-10.599c-0.007-0.004-0.015-0.011-0.02-0.016
-						c-0.009-0.008-0.02-0.015-0.028-0.024c-6.575-5.609-15.101-8.997-24.421-8.997c-20.789,0-37.643,16.854-37.643,37.643
-						c0,20.788,16.854,37.642,37.643,37.642c9.318,0,17.846-3.386,24.419-8.993c0.011-0.011,0.021-0.019,0.032-0.029
-						c0.005-0.005,0.011-0.01,0.018-0.016C89.746,86.131,90.112,81.393,87.417,78.237z"/>
-				</defs>
-				<clipPath id="c_shape">
-					<use xlink:href="#c_path"  overflow="visible"/>
-				</clipPath>
-				<g clip-path="url(#c_shape)">
-					<rect fill="#3E2D54" width="40.289" height="120"/>
-					<rect x="39.289" fill="#40587B" width="16.057" height="120"/>
-					<rect x="54.346" fill="#4D90A3" width="16.057" height="120"/>
-					<rect x="69.403" fill="#7CB694" width="16.057" height="120"/>
-					<rect x="84.46" fill="#DCD280" width="35.54" height="120"/>
-				</g>
-			</g>
-			</svg>
-		</div>
-
 		<div id="meetHues" class="content-info clearfix">
 			<div id="meetLogo" class="clearfix">
 				<a href="<?php echo home_url(); ?>" alt="hues.xyz">
@@ -219,16 +188,16 @@
 			<div id="meetBlurb" class="clearfix">
 				<p>
 					<span>
-						We're a collective who creates 
-						<a href="<?php echo home_url(); ?>/art" alt="hues Art" class="light-orange">art</a> that inspires action, 
-					</span> 
-					<span> 
-						<a href="<?php echo home_url(); ?>/tools" alt="hues Tools" class="pink">tools</a> that facilitate change, 
-					</span> 
-					<span> 
+						We're a collective who creates
+						<a href="<?php echo home_url(); ?>/art" alt="hues Art" class="light-orange">art</a> that inspires action,
+					</span>
+					<span>
+						<a href="<?php echo home_url(); ?>/tools" alt="hues Tools" class="pink">tools</a> that facilitate change,
+					</span>
+					<span>
 						<i class="amp">&amp;</i> <a href="<?php echo home_url(); ?>/resources" alt="hues Resources" class="light-blue">resources</a> that bolster efforts
 					</span>
-					<span>for 
+					<span>for
 						<a href="<?php echo home_url(); ?>/global-justice" alt="hues Global Justice" class="teal">global justice</a> &mdash;
 					</span>
 					<span> embodied in the
@@ -277,31 +246,31 @@
 						</a>
 					<li>
 						<a id="artNav" href="<?php echo home_url(); ?>/art" alt="Art by hues">
-							<i class="fa fa-paint-brush"></i> 
+							<i class="fa fa-paint-brush"></i>
 							<span>art</span>
 						</a>
 					</li>
 					<li>
 						<a id="toolsNav" href="<?php echo home_url(); ?>/tools" alt="Tools by hues">
-							<i class="fa fa-wrench"></i> 
+							<i class="fa fa-wrench"></i>
 							<span>tools</span>
 						</a>
 					</li>
 					<li>
 						<a id="resourcesNav" href="<?php echo home_url(); ?>/resources" alt="Resources by hues">
-							<i class="fa fa-map"></i> 
+							<i class="fa fa-map"></i>
 							<span>resources</span>
 						</a>
 					</li>
 					<li>
 						<a id="gjNav" href="<?php echo home_url(); ?>/global-justice" alt="Global Justice">
-							<i class="fa fa-globe"></i><i class="fa fa-balance-scale"></i>  
+							<i class="fa fa-globe"></i><i class="fa fa-balance-scale"></i>
 							<span>global justice</span>
 						</a>
 					</li>
 					<li>
 						<a id="giftNav" href="<?php echo home_url(); ?>/gift" alt="Gifts by hues">
-							<i class="fa fa-gift"></i> 
+							<i class="fa fa-gift"></i>
 							<span>gift</span>
 						</a>
 					</li>
@@ -310,7 +279,7 @@
 		</div><!--/topbar-->
 
 		<div id="container">
-			
+
 			<header class="header clearfix" role="banner">
 
 				<div id="inner-header" class="clearfix">
@@ -333,15 +302,15 @@
 								</div>
 
 							</nav>
-						</div>	
+						</div>
 
-						<div id="headerShop" class="clearfix mobileHide first">
-							<a href="<?php echo home_url(); ?>/merch" alt="Shop to support hues">
-								Shop &nbsp; <i class="fa fa-shopping-bag"></i>
+						<div id="headerShop" class="clearfix first">
+							<a href="http://hues.xyz/shop" alt="Shop to support hues">
+								<i class="fa fa-shopping-bag"></i> Shop &nbsp; <i class="fa fa-external-link"></i>
 							</a>
-						</div>	
+						</div>
 
-					</div>	<!--/headstack-->										
+					</div>	<!--/headstack-->
 
 				</div> <!-- end #inner-header -->
 

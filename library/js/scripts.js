@@ -59,32 +59,19 @@ function swapper(d)
     return s.replace(/\?/g,'.');
 }
 
-// PRELOADER
-
-$('#content').addClass('blur');
-
-$(window).load(function() { // makes sure the whole site is loaded
-    $('#loader').fadeOut(); // will first fade out the loading animation
-    $('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('#preloader-bg').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
-    $('body').delay(150).css({'overflow':'visible'});
-    $('#content').delay(150).removeClass('blur');
-})
-
-
 // Mobile Menu Show/Hide
 
 function toggleHeight() {
     var status = document.getElementById("primaryNav").style.maxHeight;
-        
+
     if (status == "1200px") {
-        
+
         document.getElementById("primaryNav").style.maxHeight = "0px";
-        
+
     } else {
-        
+
         document.getElementById("primaryNav").style.maxHeight = "1200px";
-        
+
     }
 }
 
@@ -180,20 +167,20 @@ jQuery(document).ready(function($) {
     /*TEXT ROTATOR*/
 
     (function($){
-        $.fn.extend({ 
+        $.fn.extend({
             rotaterator: function(options) {
-     
+
                 var defaults = {
                     fadeSpeed: 700,
-                    pauseSpeed: 1500,
+                    pauseSpeed: 2000,
                     child:null
                 };
-                 
+
                 var options = $.extend(defaults, options);
-             
+
                 return this.each(function() {
                       var o =options;
-                      var obj = $(this);                
+                      var obj = $(this);
                       var items = $(obj.children(), obj);
                       items.each(function() {$(this).hide();})
                       if(!o.child){var next = $(obj).children(':first');
@@ -214,7 +201,7 @@ jQuery(document).ready(function($) {
     })(jQuery);
 
     $(document).ready(function() {
-        $('#rotate').rotaterator({fadeSpeed:700, pauseSpeed:1500});
+        $('#rotate').rotaterator({fadeSpeed:700, pauseSpeed:2000});
     });
 
     /*
@@ -223,36 +210,36 @@ jQuery(document).ready(function($) {
     it, so be sure to research and find the one
     that works for you best.
     */
-    
+
     /* getting viewport width */
     var responsive_viewport = $(window).width();
-    
+
     /* if is below 481px */
     if (responsive_viewport < 481) {
-    
+
     } /* end smallest screen */
-    
+
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
-        
+
     } /* end larger than 481px */
-    
+
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
-    
+
         /* load gravatars */
         $('.comment img[data-gravatar]').each(function(){
             $(this).attr('src',$(this).attr('data-gravatar'));
         });
-        
+
     }
-    
+
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
-        
+
     }
-    
-	
+
+
 	// add all your scripts here
 
    $(window).load(function() {
@@ -260,7 +247,7 @@ jQuery(document).ready(function($) {
     $('.tip').tipr(); //calls tool-tip plugin
 
     var container = document.querySelector('#container');
-    
+
         imagesLoaded(container, function(){ // plug-in to stall isotope until images are loaded for layout
 
             var $grid = $('.isotope').isotope({
@@ -301,7 +288,7 @@ jQuery(document).ready(function($) {
                 $( this ).addClass('is-checked');
               });
             });
-          
+
         });
     });
 
@@ -319,7 +306,7 @@ jQuery(document).ready(function($) {
         }
       });
     });
- 
+
 }); /* end of as page load scripts */
 
 /*! A fix for the iOS orientationchange zoom bug.

@@ -12,6 +12,7 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	font-family: $theme-font;
 	text-rendering: optimizelegibility;
+	color:#666;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -182,27 +183,27 @@ h5, .h5 {
 	.alignnone {
 	}
 
-	.alignleft, img.alignleft { 
-		margin-right: 20px; 
+	.alignleft, img.alignleft {
+		margin-right: 20px;
 		margin-left:-20px;
 		border-left:none !important;
-		display: inline; 
-		float: left; 
+		display: inline;
+		float: left;
 	}
 
-	.alignright, img.alignright { 
-		margin-left: 20px; 
+	.alignright, img.alignright {
+		margin-left: 20px;
 		margin-right:-20px;
 		border-right:none !important;
-		display: inline; 
-		float: right; 
+		display: inline;
+		float: right;
 	}
 
-	.aligncenter, img.aligncenter { 
-		margin-right: auto; 
-		margin-left: auto; 
-		display: block; 
-		clear: both; 
+	.aligncenter, img.aligncenter {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
 	}
 
 	.textHighlight {
@@ -300,7 +301,7 @@ RESPONSIVE TYPOGRAPHY
 	}
 }
 
-	
+
 
 } // end of media query
 

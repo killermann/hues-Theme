@@ -111,7 +111,7 @@ span.highlight {
 		font-size:13px;
 		padding:12px 25px;
 		text-shadow:none;
-		
+
 		&:hover {
 			background:$link-color;
 			color:#fff;
@@ -353,7 +353,7 @@ CONTACT FORM STYLES
 		border:2px solid #fff;
 		@include rounded(2px);
 		@include transition(all .2s ease-in-out);
-		
+
 	}
 
 	button.button {
@@ -621,6 +621,35 @@ HEADER STYLES
 			}
 		}
 	}
+
+	#headerShop {
+		padding:40px 20px;
+		width:100%;
+		margin:0;
+		float:left;
+
+		a {
+			height:50px;
+			line-height:46px;
+			font-style:regular;
+			font-weight:300 !important;
+			font-size:18px;
+			width:100%;
+			text-align:center;
+			display:block;
+			color:$accent-color;
+			text-decoration:none;
+			background:rgba(255,255,255,.7);
+			border:2px solid $accent-color;
+			@include rounded(2px);
+
+			&:hover {
+				background:$accent-color;
+				border-color:darken($accent-color,20%);
+				color:darken($accent-color,20%);
+			}
+		}
+	}
 }
 
 /*********************
@@ -842,7 +871,7 @@ and more scalable.
 		max-height:0px;
 		z-index:9999;
 		@include transition(all .3s ease-in-out);
-		
+
 		background: #fcdc00; /* Old browsers */
 		background: -moz-linear-gradient(-45deg,  #fcdc00 0%, #ed7623 15%, #e81d76 31%, #803c96 47%, #467cbf 64%, #42b4e3 85%, #008345 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(-45deg,  #fcdc00 0%,#ed7623 15%,#e81d76 31%,#803c96 47%,#467cbf 64%,#42b4e3 85%,#008345 100%); /* Chrome10-25,Safari5.1-6 */
@@ -904,7 +933,7 @@ and more scalable.
 					font-style:italic;
 					text-decoration:none;
 					@include rounded(2px);
-				
+
 
 					&:hover, &:focus {
 						opacity:.8;
@@ -1032,7 +1061,7 @@ address {
 }
 
 #metaCol {
-	
+
 }
 
 	#stickyShare {display:none;}
@@ -1051,10 +1080,10 @@ address {
 		/* want to style individual post classes? Booya! */
 		.post-id {}         /* post by id (i.e. post-3) */
 		.post {}            /* general post style */
-		
+
 		.page { 		}            /* general article on a page style */
 
-		.archive { 
+		.archive {
 			.entry-content {}
 		}
 
@@ -1112,7 +1141,7 @@ address {
 
 
 .adsmall {
-	float:right; 
+	float:right;
 	margin-right:-20px;
 	padding:0 0 10px 20px;
 
@@ -1256,7 +1285,7 @@ BLOG AND LOOP STYLES
 	margin:30px auto;
 	text-align:center;
 	font-size:.78em;
-	
+
 	h2 {text-align:center; color:#333;
 
 		a {
@@ -1268,18 +1297,18 @@ BLOG AND LOOP STYLES
 			}
 		}
 	}
-	
+
 	.option {
 		padding:3% 1%;
 	}
-	
+
 	h3 {
-	
+
 		color:#444;
 		margin:0;
 		padding:0;
 	}
-		
+
 	h3 span {
 		color:#555;
 		font-size:.6em;
@@ -1291,15 +1320,15 @@ BLOG AND LOOP STYLES
 		width:auto;
 		max-height:50%;
 	}
-	
+
 	#ebook, #back {background-color:#efefef;}
-	
+
 	#back {
 		padding:2% 2% 1%; margin:0;
-		
+
 		h3 {margin: 0 !important; font-size:18px; line-height:20px;}
 	}
-	
+
 
 	p.link a{
 		margin:3%;
@@ -1309,9 +1338,9 @@ BLOG AND LOOP STYLES
 		padding:10px 20px;
 		font-weight:300 !important;
 	}
-	
+
 	p.link, .last {text-align:center;}
-	
+
 	.button {margin:0;}
 }
 
@@ -1386,7 +1415,7 @@ BLOG AND LOOP STYLES
 
 #mailingList {
 	text-align:center;
-	
+
 	label {
 		text-align:right;
 		display:inline-block;
@@ -1460,7 +1489,7 @@ BLOG AND LOOP STYLES
 		:-ms-input-placeholder { /* Internet Explorer 10+ */
 		    color:    white;
 		}
-		
+
 	}
 }
 
@@ -1526,7 +1555,7 @@ PROJECT STYLES
     		@include transition(all .2s ease-in-out);
 		}
 	}
-	
+
 	.loopText {
 		padding:15px;
 		position:absolute;
@@ -1621,7 +1650,7 @@ PROJECT VERTICAL STYLES
 	position:relative;
 	margin-bottom:20px;
 	@include rounded(2px);
-	
+
 	a {text-decoration:none;}
 
 	&:hover {
@@ -1644,7 +1673,7 @@ PROJECT VERTICAL STYLES
     		@include transition(all .2s ease-in-out);
 		}
 	}
-	
+
 	.loopTitleWrap {
 		padding:15px;
 		position:absolute;
@@ -1694,7 +1723,7 @@ PROJECT VERTICAL STYLES
 				a {
 					color:$link-color;
 					font-weight:bold;
-				
+
 					&:hover {
 						text-decoration:underline;
 					}
@@ -1727,8 +1756,8 @@ PROJECT VERTICAL STYLES
 
 .page-template-page-art {
 
-	.article-header{ color:$light-orange; } 
-	.projectVert { 
+	.article-header{ color:$light-orange; }
+	.projectVert {
 
 		background:$light-orange;
 
@@ -1741,8 +1770,8 @@ PROJECT VERTICAL STYLES
 
 .page-template-page-tools {
 
-	.article-header{ color:$pink; } 
-	.projectVert { 
+	.article-header{ color:$pink; }
+	.projectVert {
 
 		background:$pink;
 
@@ -1754,8 +1783,8 @@ PROJECT VERTICAL STYLES
 
 .page-template-page-resources {
 
-	.article-header{ color:$light-blue; } 
-	.projectVert { 
+	.article-header{ color:$light-blue; }
+	.projectVert {
 
 		background:$light-blue;
 
@@ -1775,13 +1804,13 @@ PROJECT VERTICAL STYLES
 .peoplePage {
 	.projectVert {
 		background:none;
-		
+
 		.loopImage {
 			padding-bottom:10px;
 			@include rounded(2px);
 			position:relative;
 			background:lighten($grey,15%);
-			
+
 			img {
 				opacity:1;
 			}
@@ -1809,7 +1838,7 @@ PROJECT VERTICAL STYLES
 				img:hover {
 					opacity:.9;
 				}
-				
+
 			}
 		}
 
@@ -1862,7 +1891,7 @@ PROJECT VERTICAL STYLES
 				}
 			}
 
-			a {	
+			a {
 				color:lighten($grey,15%);
 				@include transition(all .1s ease-in-out);
 			}
@@ -2059,7 +2088,7 @@ MERCH VERTICAL STYLES
 	position:relative;
 	margin-bottom:20px;
 	@include rounded(2px);
-	
+
 	a {text-decoration:none;}
 
 	&:hover {
@@ -2106,7 +2135,7 @@ MERCH VERTICAL STYLES
 		padding:3px 5px;
 		@include rounded(2px);
 	}
-	
+
 	.loopTitleWrap {
 		padding:15px;
 		position:relative;
@@ -2179,7 +2208,7 @@ MERCH VERTICAL STYLES
 				a {
 					color:$link-color;
 					font-weight:bold;
-				
+
 					&:hover {
 						text-decoration:underline;
 					}
@@ -2246,7 +2275,7 @@ TEASER STYLES
 **********************/
 
 .teaser {
-	
+
 	.loopTitle {
 		border-bottom:1px dashed #eee;
 		padding:20px;
@@ -2271,7 +2300,7 @@ TEASER STYLES
 			width:100%;
 			display:block;
 			text-align:center;
-			font-family:$sans-serif;	
+			font-family:$sans-serif;
 
 			i {
 				margin-left:4px;
@@ -2309,7 +2338,7 @@ SHADOWBOX STYLES
 	padding:0 2.35%;
 	position:relative;
 
-	ul {margin:0; 
+	ul {margin:0;
 		li {margin-top:0;margin-bottom:0;}
 	}
 }
@@ -2333,7 +2362,7 @@ SHADOWBOX STYLES
 	}
 
 	.loopTitle {
-		margin:0 0 10px;		
+		margin:0 0 10px;
 	}
 
 	.loopImage img {
@@ -2350,7 +2379,7 @@ SHADOWBOX STYLES
 		width:100%;
 		padding:10px;
 		font-size:1.6em;
-	
+
 		a {
 			text-decoration:none;
 		}
@@ -2361,19 +2390,19 @@ SHADOWBOX STYLES
 	}
 
 	&:nth-child(1) {
-		background-color:$blue; 
+		background-color:$blue;
 		.loopText h4 span.highlight {color:$blue}
 	}
 	&:nth-child(2) {
-		background-color:$green; 
+		background-color:$green;
 		.loopText h4 span.highlight {color:$green}
 	}
 	&:nth-child(3) {
-		background-color:$orange; 
+		background-color:$orange;
 		.loopText h4 span.highlight {color:$orange}
 	}
 	&:nth-child(4) {
-		background-color:$red; 
+		background-color:$red;
 		.loopText h4 span.highlight {color:$red}
 	}
 
@@ -2537,6 +2566,24 @@ HOME PAGE
 		width:80%;
 		font-family:$alt-font;
 		line-height:1.1;
+	}
+	h2 {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		font-size:calc(16px + 1vw);
+		text-align:center;
+		font-style:italic;
+	}
+
+	#rotate {
+
+		span {
+			display:none;
+		}
+		span:nth-of-type(1) {
+			display:inline;
+		}
 	}
 }
 
@@ -2850,7 +2897,7 @@ COLLECTIVE PAGE
 						color:#fff;
 					}
 					&:active {
-						
+
 						color:#fff;
 					}
 				}
@@ -2903,7 +2950,7 @@ ARTICLES AND BOOKS PAGE
 
 				a {
 					text-decoration:none;
-					color:$text-color;	
+					color:$text-color;
 					display:block;
 					padding:15px;
 					font-size:.9em;
@@ -3167,7 +3214,7 @@ SIDEBARS & ASIDES
 	ul {
 		margin-top:3px;
 	}
-	
+
 	select {
 	    padding: 10px 15px !important;
 	    font-family:$theme-font;
@@ -3182,13 +3229,13 @@ SIDEBARS & ASIDES
 	    box-shadow: none;
 	    background-color: transparent;
 	    background-image: none;
-	  
+
 	  	@include rounded(100px);
 
 		&:focus {
 		    outline: none;
 		}
-	}	
+	}
 
 	.searchContainer {
 
@@ -3197,7 +3244,7 @@ SIDEBARS & ASIDES
 			left:12px;
 			color:#777;
 		}
-		
+
 		input[type=text]{
 			padding:0px 0px 0px 35px;
 			height:40px;
@@ -3225,7 +3272,7 @@ SIDEBARS & ASIDES
 		@include rounded(2px);
 	}
 
-	p { 
+	p {
 		padding:0 20px;
 		margin:10px auto;
 		font-family:$serif;
@@ -3559,7 +3606,7 @@ FOOTER STYLES
 
 	h3 {
 		margin:0 0 10px;
-		font-family:$alt-font;		
+		font-family:$alt-font;
 	}
 	.footerPara {
 		padding:8px 16px;
@@ -3684,7 +3731,7 @@ http://www.tipue.com/tipr
 .tipr_content
 {
      font: 13px/1.7 $theme-font, Helvetica, Arial, sans-serif;
-     color: #666; 
+     color: #666;
      background-color: #fff;
      padding: 9px 17px;
 }
@@ -3704,7 +3751,7 @@ http://www.tipue.com/tipr
      box-shadow: 2px 2px 5px #f9f9f9;
      z-index: 1000;
 }
-.tipr_point_top, .tipr_point_bottom 
+.tipr_point_top, .tipr_point_bottom
 {
     position: relative;
 	background: #fff;
@@ -3727,7 +3774,7 @@ http://www.tipue.com/tipr
 	left: 50%;
 	margin-left: -8px;
 }
-.tipr_point_top:before 
+.tipr_point_top:before
 {
 	border-top-color: #dcdcdc;
 	border-width: 9px;
@@ -3751,7 +3798,7 @@ http://www.tipue.com/tipr
 	left: 50%;
 	margin-left: -8px;
 }
-.tipr_point_bottom:before 
+.tipr_point_bottom:before
 {
 	border-bottom-color: #dcdcdc;
 	border-width: 9px;
@@ -3769,7 +3816,7 @@ http://www.tipue.com/tipr
 		.hrf-entry {
 			&:nth-of-type(13n+1) {
 				h3.hrf-title, a {
-					color:$light-orange; 
+					color:$light-orange;
 					span {background-color:$light-orange;}
 				}
 
@@ -3777,7 +3824,7 @@ http://www.tipue.com/tipr
 			}
 			&:nth-of-type(13n+2) {
 				h3.hrf-title {
-					color:$orange; 
+					color:$orange;
 					span {background-color:$orange;}
 				}
 
@@ -3785,7 +3832,7 @@ http://www.tipue.com/tipr
 			}
 			&:nth-of-type(13n+3) {
 				h3.hrf-title {
-					color:$red; 
+					color:$red;
 					span {background-color:$red;}
 				}
 
@@ -3793,7 +3840,7 @@ http://www.tipue.com/tipr
 			}
 			&:nth-of-type(13n+4) {
 				h3.hrf-title {
-					color:$dark-red !important; 
+					color:$dark-red !important;
 					span {background-color:$dark-red;}
 				}
 
@@ -3801,13 +3848,13 @@ http://www.tipue.com/tipr
 			}
 			&:nth-of-type(13n+5) {
 				h3.hrf-title {
-					color:$pink; 
+					color:$pink;
 					span {background-color:$pink;}
 				}
 
 				.hrf-content p {background:lighten($pink,45%)}
 			}
-			
+
 			&:nth-of-type(13n+6) {color:$fuschia;}
 			&:nth-of-type(13n+7) {color:$purple;}
 			&:nth-of-type(13n+8) {color:$dark-purple;}
@@ -3824,7 +3871,7 @@ http://www.tipue.com/tipr
 			span {
 				color:#fff;
 				@include rounded(2px);
-			}			
+			}
 		}
 
 		.hrf-content {
@@ -3910,7 +3957,7 @@ http://www.tipue.com/tipr
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -3949,4 +3996,3 @@ http://www.tipue.com/tipr
   -o-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
   transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
 }
-
